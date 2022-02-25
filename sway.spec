@@ -4,7 +4,7 @@
 #
 Name     : sway
 Version  : 1.7
-Release  : 8
+Release  : 9
 URL      : https://github.com/swaywm/sway/archive/1.7/sway-1.7.tar.gz
 Source0  : https://github.com/swaywm/sway/archive/1.7/sway-1.7.tar.gz
 Summary  : i3-compatible Wayland compositor
@@ -15,6 +15,7 @@ Requires: sway-data = %{version}-%{release}
 Requires: sway-filemap = %{version}-%{release}
 Requires: sway-license = %{version}-%{release}
 Requires: sway-man = %{version}-%{release}
+Requires: xkeyboard-config
 BuildRequires : buildreq-meson
 BuildRequires : pkgconfig(bash-completion)
 BuildRequires : pkgconfig(cairo)
@@ -95,7 +96,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1644424662
+export SOURCE_DATE_EPOCH=1645804045
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
