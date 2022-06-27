@@ -4,7 +4,7 @@
 #
 Name     : sway
 Version  : 1.7
-Release  : 9
+Release  : 10
 URL      : https://github.com/swaywm/sway/archive/1.7/sway-1.7.tar.gz
 Source0  : https://github.com/swaywm/sway/archive/1.7/sway-1.7.tar.gz
 Summary  : i3-compatible Wayland compositor
@@ -96,7 +96,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1645804045
+export SOURCE_DATE_EPOCH=1656355520
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -116,7 +116,7 @@ cp %{_builddir}/sway-1.7/LICENSE %{buildroot}/usr/share/package-licenses/sway/7d
 cp %{_builddir}/sway-1.7/assets/LICENSE %{buildroot}/usr/share/package-licenses/sway/82da472f6d00dc5f0a651f33ebb320aa9c7b08d0
 DESTDIR=%{buildroot}-v3 ninja -C builddiravx2 install
 DESTDIR=%{buildroot} ninja -C builddir install
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
