@@ -4,7 +4,7 @@
 #
 Name     : sway
 Version  : 1.7
-Release  : 11
+Release  : 12
 URL      : https://github.com/swaywm/sway/archive/1.7/sway-1.7.tar.gz
 Source0  : https://github.com/swaywm/sway/archive/1.7/sway-1.7.tar.gz
 Summary  : i3-compatible Wayland compositor
