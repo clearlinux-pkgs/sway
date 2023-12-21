@@ -5,7 +5,7 @@
 #
 Name     : sway
 Version  : 1.8.1
-Release  : 20
+Release  : 21
 URL      : https://github.com/swaywm/sway/archive/1.8.1/sway-1.8.1.tar.gz
 Source0  : https://github.com/swaywm/sway/archive/1.8.1/sway-1.8.1.tar.gz
 Summary  : i3-compatible Wayland compositor
