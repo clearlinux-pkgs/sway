@@ -7,7 +7,7 @@
 #
 Name     : sway
 Version  : 1.9
-Release  : 28
+Release  : 29
 URL      : https://github.com/swaywm/sway/archive/1.9/sway-1.9.tar.gz
 Source0  : https://github.com/swaywm/sway/archive/1.9/sway-1.9.tar.gz
 Summary  : i3-compatible Wayland compositor
