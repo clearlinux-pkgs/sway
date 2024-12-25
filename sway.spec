@@ -7,7 +7,7 @@
 #
 Name     : sway
 Version  : 1.10
-Release  : 40
+Release  : 41
 URL      : https://github.com/swaywm/sway/archive/1.10/sway-1.10.tar.gz
 Source0  : https://github.com/swaywm/sway/archive/1.10/sway-1.10.tar.gz
 Summary  : i3-compatible Wayland compositor
